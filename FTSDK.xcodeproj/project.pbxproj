@@ -10,6 +10,8 @@
 		DB91D18D213A318800232CC1 /* FTSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB91D183213A318800232CC1 /* FTSDK.framework */; };
 		DB91D192213A318800232CC1 /* FTSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB91D191213A318800232CC1 /* FTSDKTests.m */; };
 		DB91D194213A318800232CC1 /* FTSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = DB91D186213A318800232CC1 /* FTSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBF65D21213AE23300E7805D /* FTApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = DBF65D1F213AE23300E7805D /* FTApplication.h */; };
+		DBF65D22213AE23300E7805D /* FTApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF65D20213AE23300E7805D /* FTApplication.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		DB91D18C213A318800232CC1 /* FTSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FTSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB91D191213A318800232CC1 /* FTSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTSDKTests.m; sourceTree = "<group>"; };
 		DB91D193213A318800232CC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBF65D1F213AE23300E7805D /* FTApplication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTApplication.h; sourceTree = "<group>"; };
+		DBF65D20213AE23300E7805D /* FTApplication.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTApplication.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				DB91D186213A318800232CC1 /* FTSDK.h */,
+				DBF65D1F213AE23300E7805D /* FTApplication.h */,
+				DBF65D20213AE23300E7805D /* FTApplication.m */,
 				DB91D187213A318800232CC1 /* Info.plist */,
 			);
 			path = FTSDK;
@@ -94,6 +100,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB91D194213A318800232CC1 /* FTSDK.h in Headers */,
+				DBF65D21213AE23300E7805D /* FTApplication.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBF65D22213AE23300E7805D /* FTApplication.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
